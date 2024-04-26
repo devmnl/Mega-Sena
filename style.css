@@ -38,11 +38,16 @@ input[type="button"]:hover {
 }
 
 /* Estilizações para o rodapé */
+
 footer {
-    background-color: #008b62; /* Verde Mega-Sena */
-    color: white; /* Cor do texto branco para contraste */
-    text-align: center; /* Centraliza o texto */
-    padding: 10px; /* Espaçamento interno */
+  background-color: #008b62;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
 }
 
 /* Estilizações para o campo de entrada e select */
