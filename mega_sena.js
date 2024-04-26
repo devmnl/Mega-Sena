@@ -49,7 +49,7 @@ function sortear() {
     
     //Verificar se o resultado é = 0
     if (acertos.length === 0) {
-    resultadoTexto = `Você NÃO acertou nenhum número AZARADO &#x1F921;<br><br>`
+    resultadoTexto = `Você NÃO acertou nenhum número seu AZARADO &#x1F921;<br><br>`
     resultadoTexto += `Números sorteados: <b>${sorteados.join(' - ')}</b><br><br>`
     } else {
         resultadoTexto = `Você acertou ${acertos.length} número(s): <b>${acertos.join(' - ')}</b><br><br>`
