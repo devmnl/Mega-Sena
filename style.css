@@ -1,0 +1,69 @@
+/* Estilizações globais */
+body {
+    background-color: #f0f0f0; /* Cinza claro para fundo */
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Estilizações para o cabeçalho */
+header {
+    background-color: #008b62; /* Verde escuro (tom da Mega-Sena) */
+    color: white; /* Cor do texto branco para contraste */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilizações para a seção principal */
+section {
+    margin: 20px; /* Espaçamento externo */
+    padding: 20px; /* Espaçamento interno */
+    background-color: white; /* Fundo branco para contraste */
+    border: 1px solid #ddd; /* Borda sutil */
+    font-size: 15pt;
+    text-align: center;
+}
+
+/* Estilizações para os botões */
+input[type="button"] {
+    background-color: #008b62; /* Verde Mega-Sena */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de mão */
+    transition: 0.3s; /* Transição suave para hover */
+}
+
+input[type="button"]:hover {
+    background-color: #006d4b; /* Muda a cor no hover */
+}
+
+/* Estilizações para o rodapé */
+footer {
+    background-color: #008b62; /* Verde Mega-Sena */
+    color: white; /* Cor do texto branco para contraste */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilizações para o campo de entrada e select */
+input[type="number"] {
+    width: 40px; /* Largura do campo */
+}
+
+/* Estilo para os números selecionados */
+.number {
+    display: inline-block; /* Exibir números lado a lado */
+    border-radius: 50%; /* Forma de círculo */
+    background-color: #008b62; /* Fundo verde Mega-Sena */
+    color: white; /* Cor do texto */
+    width: 40px; /* Largura do círculo */
+    height: 40px; /* Altura do círculo */
+    text-align: center; /* Centraliza o texto */
+    line-height: 40px; /* Centraliza verticalmente */
+    margin-right: 5px; /* Espaçamento entre círculos */
+}
+
+/* Estilização para a div que contém os números */
+.numberContainer {
+    padding: 10px; /* Espaçamento interno */
+}

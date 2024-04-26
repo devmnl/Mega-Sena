@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Mega-Sena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Mega-Sena &#x2618;</h>
+  
+    </header>
+    <section>
+        <div>
+            Escolha <b>6</b> números entre <b>1</b> e <b>60</b>
+            <input type="number" id="numInput" min="1" max="60">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br>
+            Seus números:<br>
+            <div id="userNumbers" class="numberContainer"></div>
+            <br>
+            <input type="button" value="Sortear" onclick="sortear()"><br>
+            <br>
+        </div>
+        <div id="resultado">
+            <!-- Resultados do sorteio e mensagens -->
+        </div>
+    </section>
+    <footer>
+        <p>By Manoel Franco</p>
+    </footer>
+    <script src="mega_sena.js"></script>
+</body>
+</html>
