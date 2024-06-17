@@ -16,6 +16,13 @@ Bem-vindo ao **Jogo da Mega-Sena**! Este é um simples projeto web que simula o 
 
 O Jogo da Mega-Sena é uma aplicação web desenvolvida em JavaScript, HTML e CSS. A aplicação permite que o usuário selecione até 6 números entre 1 e 60. Após selecionar os números, o usuário pode realizar um sorteio aleatório e verificar quantos números acertou.
 
+## Acesse o App
+
+Você pode acessar o aplicativo online através do seguinte link:
+
+[mega-sena-eta.vercel.app](https://mega-sena-eta.vercel.app)
+
+
 ## Funcionalidades
 
 - Adicionar números selecionados pelo usuário.
