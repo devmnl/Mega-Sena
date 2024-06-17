@@ -44,4 +44,41 @@ O Jogo da Mega-Sena é uma aplicação web desenvolvida em JavaScript, HTML e CS
 6. O resultado do sorteio será exibido na tela, mostrando os números sorteados e os números acertados pelo usuário.
 
 ## Estrutura do Projeto
+jogo-da-mega-sena/
+├── index.html
+├── style.css
+├── mega_sena.js
+└── README.md
+
+
+- `index.html`: Contém a estrutura HTML da aplicação.
+- `style.css`: Contém o estilo CSS para a aplicação.
+- `mega_sena.js`: Contém o script JavaScript responsável pela lógica da aplicação.
+- `README.md`: Este arquivo que você está lendo.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Para contribuir:
+
+1. Fork o repositório.
+2. Crie uma branch para sua feature (`git checkout -b minha-nova-feature`).
+3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`).
+4. Push para a branch (`git push origin minha-nova-feature`).
+5. Crie um novo Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+
+**By Manoel Franco**
 
